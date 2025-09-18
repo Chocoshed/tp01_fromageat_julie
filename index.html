@@ -6,8 +6,59 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+  <link rel="stylesheet" href="style.css"></head>
 <body>
-  <app-root></app-root>
-<script src="main-LMPZ5CLS.js" type="module"></script></body>
+
+  <form>
+    <div>
+      <label for="login">Login :</label>
+      <input type="text" id="login" name="login" required placeholder="Entrez votre nom d'utilisateur">
+    </div>
+    
+    <div>
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" name="password" required placeholder="Minimum 6 caractères">
+    </div>
+    
+    <div>
+      <label for="confirmPassword">Confirmation du mot de passe :</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirmez votre mot de passe">
+    </div>
+    
+    <div>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required placeholder="Votre nom de famille">
+    </div>
+    
+    <div>
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required placeholder="Votre prénom">
+    </div>
+    
+    <div>
+      <label for="adresse">Adresse :</label>
+      <input type="text" id="adresse" name="adresse" required placeholder="123 rue de la Paix, 75000 Paris">
+    </div>
+    
+    <div>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required placeholder="exemple@email.com">
+    </div>
+    
+    <div>
+      <label for="telephone">Téléphone :</label>
+      <input type="text" id="telephone" name="telephone" required placeholder="0600000000">
+    </div>
+    
+    <div>
+      <label for="dateNaissance">Date de naissance :</label>
+      <input type="date" id="dateNaissance" name="dateNaissance" required>
+    </div>
+    
+    <div>
+      <button type="submit">S'inscrire</button>
+    </div>
+  </form>
+
+<script src="script.js"></script></body>
 </html>
